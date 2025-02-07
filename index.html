@@ -20,7 +20,7 @@
     </header>
 
     <main>
-      <section class="home">
+      <section class="home" id="home">
         <figure>
           <img
             src="./erriko-boccia-K1dGOGpdLWk-unsplash.jpg"
@@ -29,7 +29,7 @@
         </figure>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <br />
         <h1>About Me</h1>
         <figure>
@@ -49,7 +49,7 @@
         </p>
       </section>
       <br />
-      <section class="work">
+      <section class="work" id="work">
         <h2>Work Experience</h2>
         <figure>
           <img
@@ -63,9 +63,18 @@
           molestiae et quia eos quis aut molestias veritatis ducimus ipsa. Quam
           repellat ducimus maxime
         </p>
+        <h4>My Audio work 🎹 </h4>
+        <p>
+          What's work without fun? During my leisure time, I love producing
+          music and here's one of them below
+        </p>
+        <audio controls>
+            <source src="./Victoria-Orenze-Ft-Nathaniel-Bassey-Ascend-(TrendyBeatz.com).mp3" type="audio/mpeg">Your browser does not support the audio format
+        </audio><br>
+        <button>Check for more</button>
       </section>
       <br />
-      <section class="resume">
+      <section class="resume" id="resume">
         <h1>Services/Resume</h1>
         <figure>
           <img
@@ -88,19 +97,20 @@
         </dl>
       </section>
       <br />
-      <section class="contact">
+      <section class="contact" id="contact">
         <h2>Get in Touch</h2>
-        <form action="">
+        <form action="mailto:joshuaolaoluwa7@gmail.com" >
           <label for="">Name:</label> <br />
-          <input type="text" name="name" id="name" /> <br />
+          <input type="text" name="name" id="name" placeholder="John Doe"/> <br />
           <label for="email">Email:</label> <br />
-          <input type="email" name="email" id="email" /><br />
+          <input type="email" name="email" id="email" placeholder="johndoe@gmail.com"/><br />
           <label for="comments">Comment:</label><br />
           <textarea
             name="comments"
             id="comments"
             cols="50"
             rows="10"
+            placeholder="enter message"
           ></textarea>
           <br />
           <input type="button" value="Send Message" id="button" />

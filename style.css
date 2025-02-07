@@ -29,6 +29,11 @@ dl>dt{
     text-transform: capitalize;
     font-weight: 500;
 }
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+}
 #button{
     cursor: pointer;
 }
