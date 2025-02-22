@@ -4,31 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
       <nav>
+        <div class="logo">Osunlakin Joshua</div>
         <ul>
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#work">Projects</a></li>
           <li><a href="#resume">Resume</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="email">
+          <i class="fa-solid fa-envelope"></i> drcjolu@gmail.com
+        </div>
       </nav>
     </header>
 
     <main>
       <section class="home" id="home">
-        <figure>
-          <img
-            src="https://unsplash.com/photos/XJXWbfSo2f0/download?ixid=M3wxM
-            jA3fDB8MXxzZWFyY2h8MTh8fGhlcm8lMjB0ZWNoJTIwcGFnZXxlbnwwfHx8fDE3Mz
-            g5NjUxMDN8MA&force=true&w=1920s"
-            alt="hero-image"
-          />
-        </figure>
+        <div class="home-container">
+          <p class="title">Full-stack Developer</p>
+          <p class="description">I build <span  class="grey">scalable</span><br> mobile and web apps</p>
+          <p class="contact">
+            Got an idea to work on and need help? <br>Bring your idea in descriptive
+            documentation and I'll make a <br> scalable tech for you.
+          </p>
+          <button class="contact-btn">Get in touch <i class="fa-solid fa-arrow-right"></i></button>
+        </div> 
+        <div class="hero">
+          <img src="./hero img portfolio.png" alt="Dr. Osunalkin Joshua facing the camera with a straight and smiley face" />
+        </div>
       </section>
 
       <section class="about" id="about">
@@ -51,7 +71,7 @@
         </p>
       </section>
       <br />
-      <section class="work" id="work">
+      <section class="projects" id="projects">
         <h2>Work Experience</h2>
         <figure>
           <img

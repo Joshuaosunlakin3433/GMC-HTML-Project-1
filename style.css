@@ -1,39 +1,131 @@
+@font-face {
+  font-family: quichie;
+  src: url(./Fontspring-DEMO-quichesans-bold.otf);
+}
 * {
   margin: 0;
 }
 
 body {
-  margin: auto;
-  max-width: 500px;
+  font-family: "Roboto" serif;
+  margin: 0 2rem;
+  background-color: #1f1f1f;
+  margin: 2rem;
+  margin-right: 0;
 }
 
-main{
-    margin-top: 20px;
+main {
+  margin-top: 20px;
 }
-nav > ul {
+
+header {
+  padding: 2rem 0;
+  border-bottom: 1px solid #949494;
+}
+nav {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav > ul > li {
+nav > ul {
   list-style: none;
-  margin-left: 5px;
+}
+nav > ul > li {
+  display: inline;
+  margin-left: 4rem;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  color: #949494;
+  font-size: 1.2rem;
+}
+.logo {
+  font-family: "quichie", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.email {
+  color: whitesmoke;
+  font-family: "quichie", serif;
+  padding-right: 10rem;
+}
+i {
+  margin-right: 5px;
+  background-color: #fe5b13;
+  padding: 0.7rem;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 figure > img {
   width: 600px;
   height: 500px;
 }
-dl>dt{
-    text-transform: capitalize;
-    font-weight: 500;
+dl > dt {
+  text-transform: capitalize;
+  font-weight: 500;
 }
-button{
-    cursor: pointer;
-    border-radius: 5px;
-    padding: 5px;
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px;
 }
-#button{
-    cursor: pointer;
+#button {
+  cursor: pointer;
 }
+/* styling about section */
+.home {
+  /* height: 80vh; */
+  position: relative;
+}
+.hero {
+  position: absolute;
+  bottom:0;
+  right: 15rem;
+}
+.hero > img {
+ width: 450px;
+ height: 600px;
+}
+
+.home-container {
+  padding: 2rem 0;
+  align-self: flex-start;
+}
+
+.home-container > p {
+  color: #949494;
+  padding: 1rem 0;
+}
+.home-container > p.description {
+  color: whitesmoke;
+}
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.description {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.grey {
+  color: #949494;
+}
+.contact {
+  font-size: 1.3rem;
+}
+.contact-btn {
+  padding: 0.5rem 1.3rem;
+  background-color: #fe5b13;
+  color: whitesmoke;
+  border-radius: 3rem;
+  border: none;
+  margin: 4rem 0;
+  font-size: 1.2rem;
+}
+/* .contact-btn > i {
+  margin-right: 0;
+} */
